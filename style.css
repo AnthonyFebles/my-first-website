@@ -38,7 +38,7 @@ nav{
     border-radius: 20%;
 }
 
-.nav-links li a:hover:not(.active) {
+.nav-links li a:hover:not(.active-page) {
     background-color: #CBF3D2;
     border-radius: 20%;
 }
@@ -114,7 +114,7 @@ input {
     margin: 10px;
 }
 
-.gridImages{
+.gridImagesField{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
@@ -133,4 +133,10 @@ input {
     height: 250px;
     justify-content: center;
     margin: auto;
+}
+
+ul{
+    font-size: 50px;
+    list-style:none;
+    margin: auto 20px;
 }
